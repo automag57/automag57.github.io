@@ -1,0 +1,282 @@
+* {
+  font-family: "Manrope", sans-serif;
+}
+
+.contacts {
+  min-height: 60px;
+  background-color: #CFCFCF;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 13px 50px;
+  margin: 0;
+  list-style-type: none;
+}
+.menu_link {
+  color: #222;
+}
+.menu i {
+  margin-right: 7px;
+}
+
+header {
+  position: relative;
+}
+
+.header_title {
+  font-family: Rubik Mono One;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+span {
+  font-family: Rubik Mono One;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.navbar {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.subheader {
+  min-height: 600px;
+  background: url("../img/bg/car.jpg") center center/cover no-repeat;
+}
+.subheader_title {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 600;
+  padding-top: 110px;
+  text-transform: uppercase;
+}
+.subheader_address {
+  padding-top: 15px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.subheader_address:hover {
+  color: #0000FF;
+  transition: 0.6s all;
+}
+.subheader_subtitle {
+  color: #ffffff;
+}
+
+.about {
+  min-height: 300px;
+}
+.about_title {
+  font-size: 45px;
+  margin-top: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.about_line {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 300px;
+  height: 3px;
+  background-color: #F4A900;
+}
+.about_subtitle {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.parts {
+  min-height: 550px;
+  background: url("../img/bg/parts.jpg") center center/cover no-repeat;
+}
+.parts_title {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 600;
+  padding-left: 230px;
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .menu {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu_item {
+    font-size: 13px;
+  }
+  .subheader {
+    min-height: 500px;
+  }
+  .subheader_title {
+    font-size: 60px;
+  }
+  .about {
+    min-height: 250px;
+  }
+  .about_title {
+    font-size: 35px;
+  }
+  .parts {
+    min-height: 500px;
+  }
+  .parts_title {
+    font-size: 35px;
+  }
+}
+@media (max-width: 991px) {
+  .menu_item {
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .menu i {
+    margin-right: 3px;
+  }
+  .subheader {
+    min-height: 450px;
+  }
+  .subheader_title {
+    font-size: 50px;
+  }
+  .subheader_address {
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .subheader_address:hover {
+    color: #0000FF;
+    transition: 0.6s all;
+  }
+  .about {
+    min-height: 250px;
+  }
+  .about_title {
+    font-size: 30px;
+  }
+  .about_subtitle {
+    font-size: 20px;
+  }
+  .parts {
+    min-height: 360px;
+    width: 100%;
+  }
+  .parts_title {
+    font-size: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .contacts {
+    min-height: 37px;
+  }
+  .contacts .menu {
+    justify-content: flex-end;
+  }
+  .contacts .menu_item {
+    font-size: 10px;
+    font-weight: 400;
+    padding-left: 130spx;
+  }
+  .contacts .menu i {
+    margin-right: 3px;
+  }
+  .subheader {
+    min-height: 375px;
+  }
+  .subheader_title {
+    font-size: 35px;
+  }
+  .subheader_address {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .subheader_address:hover {
+    color: #0000FF;
+    transition: 0.6s all;
+  }
+  .about {
+    min-height: 200px;
+  }
+  .about_title {
+    font-size: 25px;
+  }
+  .about_subtitle {
+    font-size: 18px;
+  }
+  .parts {
+    min-height: 300px;
+    width: 100%;
+  }
+  .parts_title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+@media (max-width: 575px) {
+  .contacts {
+    min-height: 60px;
+  }
+  .contacts .menu_item {
+    font-weight: 700px;
+    padding-right: 7px;
+  }
+  .contacts .menu i {
+    display: none;
+  }
+  .subheader {
+    min-height: 270px;
+  }
+  .subheader_title {
+    font-size: 35px;
+    padding-top: 60px;
+  }
+  .subheader_address {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .subheader_address:hover {
+    color: #0000FF;
+    transition: 0.6s all;
+  }
+  .subheader_subtitle {
+    font-size: 13px;
+  }
+  .about {
+    min-height: 150px;
+  }
+  .about_title {
+    font-size: 20px;
+  }
+  .about_subtitle {
+    font-size: 13px;
+  }
+  .about_line {
+    width: 50%;
+    height: 2px;
+  }
+  .parts {
+    min-height: 200px;
+    width: 100%;
+  }
+  .parts_title {
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 130px;
+  }
+  .header_title {
+    font-size: 30px;
+  }
+  span {
+    font-size: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */
